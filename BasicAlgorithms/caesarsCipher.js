@@ -6,7 +6,7 @@ function rot13(str) { // LBH QVQ VG!
   var sArray = str.split('').map(function(val) {
         return val.charCodeAt();
   });
-
+ 
   // loop over the array and rot(-13) except spaces (code = 32)
   // and other punctuation
   for (var i = 0; i < sArray.length; i++) {
