@@ -1,8 +1,7 @@
+/*jshint esversion: 6 */
+
 function bouncer(arr) {
-  var filtered = arr.filter(function(val) {
-    return val;
-  });
-  return filtered;
+  return arr.filter(val => val);
 }
 
 bouncer([7, "ate", "", false, 9]);

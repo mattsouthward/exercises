@@ -1,6 +1,6 @@
 function palindrome(str) {
   // Define a regular expression to match
-  // alphanumeric characters
+  // non-alphanumeric characters
   var re = /([^a-z0-9])/gi;
 
   // Replace the matched non-alphanumeric characters
@@ -8,11 +8,7 @@ function palindrome(str) {
   var cleanStr = str.replace(re, '').toLowerCase();
 
   // Compare cleanStr to the reverse, if it matches, return true
-  if (cleanStr === cleanStr.split('').reverse().join('')) {
-    return true;
-  }
-  return false;
+  return (cleanStr === cleanStr.split('').reverse().join('')) ? true : false;
 }
-
 
 palindrome("e Y*e&^ _");

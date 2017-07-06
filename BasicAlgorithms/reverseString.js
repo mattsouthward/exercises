@@ -5,4 +5,4 @@ function reverseString(str) {
 console.log(reverseString("hello"));
 console.log(reverseString("Howdy"));
 console.log(reverseString("Greetings from Earth"));
-console.log(typeof reverseString("Some string") === "string")
+console.log(typeof reverseString("Some string") === "string");

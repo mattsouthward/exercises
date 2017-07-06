@@ -1,11 +1,4 @@
-// function largestOfFour(numArray) {
-//   return numArray.map(function(arrayElement) {
-//     arrayElement.sort(function(a, b) {
-//       return b - a;
-//     });
-//     return arrayElement[0];
-//   });
-// }
+/*jshint esversion: 6 */
 function largestOfFour(arrays) {
   return arrays.map(arrayOfNumbers => arrayOfNumbers.sort((a,b) => b - a)[0]);
 }

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 function diffArray(arr1, arr2) {
   //Create diffArray adding elements in arr1 that missing from arr2
   var diffArray = arr1.filter((arr1Element) => arr2.indexOf(arr1Element) === -1);
