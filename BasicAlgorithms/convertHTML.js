@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+
 function convertHTML(str) {
   var re = new RegExp(/[^\w\s]/g);
   var entities = { "!": "&excl;",
